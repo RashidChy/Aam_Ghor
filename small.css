@@ -1,0 +1,63 @@
+@media only screen and (max-width: 800px) {
+      .container {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      aside.order {
+        text-align: center;
+        float: inherit;
+
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: rgb(223, 223, 223);
+        text-align: center;
+        padding: 7px 85px 7px 185px;
+        text-decoration: none;
+        font-size: 30px;
+      }
+      li a:hover {
+        background-color: rgb(228, 154, 17);
+        color: black;
+    }
+    .hero img {
+      
+      width: 50%;
+    }
+    .orderBtn  {
+      border: none;
+      color: #FFFFFF;
+      cursor: pointer;
+      display: inline-block;
+      font-family: Arial;
+      font-size: 20px;
+      padding: 5px 10px 5px 85px;
+      text-align: center;
+      text-decoration: none;
+      -webkit-animation: glowing 1500ms infinite;
+      -moz-animation: glowing 1500ms infinite;
+      -o-animation: glowing 1500ms infinite;
+      animation: glowing 1500ms infinite;
+    }
+
+    
+    @keyframes glowing {
+      50% { box-shadow: 40px 0 3px #84e406; }
+      50% { box-shadow: 40px 0 40px #80ff37; }
+      100% { box-shadow: 0 0 3px #70ff37; }
+    }
+  }
