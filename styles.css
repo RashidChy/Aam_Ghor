@@ -21,15 +21,19 @@
 
 }
 body{
-      background-color: rgb(255, 158, 67);
-}
+      background-image: url('images/mangoes.gif');
+      background-size:200px;
+      background-color: rgb(57, 201, 165);
+    
+    }
+
 
 ul {
       list-style-type: none;
       margin: 0;
       padding: 0;
       overflow: hidden;
-      background-color: #333;
+      background-color: #f9cc00;
     }
     
     li {
@@ -38,14 +42,14 @@ ul {
     
     li a {
       display: block;
-      color: white;
+      color: rgb(0, 0, 0);
       text-align: center;
       padding: 14px 70px;
       text-decoration: none;
       font-size: 25px;
     }
     li a:hover {
-      background-color: rgb(235, 192, 0);
+      background-color: rgb(255, 175, 4);
       color: black;
       font-size: 35px;
     }
@@ -73,15 +77,14 @@ ul {
 
    .orderBtn {
     display: block;
-
-    color: white;
+    color: rgb(255, 253, 129);
     padding: 14px 0px;
     font-size: 16px;
     text-align: center;
   }
   
   #orderBtn:hover{
-    background-color: rgb(255, 199, 126);
+    background-color: rgb(255, 224, 83);
     color: black;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
   }
