@@ -49,9 +49,9 @@ ul {
       font-size: 25px;
     }
     li a:hover {
-      background-color: rgb(255, 175, 4);
       color: black;
       font-size: 35px;
+      font-weight: bolder;
     }
 
    h1 {
@@ -96,8 +96,4 @@ ul {
     letter-spacing: 8px;
   }
 
-  input.orderForm{
-    size="80" ;
-    height="100" ;
-  }
 
